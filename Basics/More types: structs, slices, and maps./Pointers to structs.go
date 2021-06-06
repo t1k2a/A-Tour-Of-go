@@ -1,3 +1,4 @@
+// https://go-tour-jp.appspot.com/moretypes/4
 package main
 
 import "fmt"
