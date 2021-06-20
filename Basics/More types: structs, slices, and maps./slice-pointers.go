@@ -1,8 +1,12 @@
+// https://go-tour-jp.appspot.com/moretypes/8
 package main
 
 import "fmt"
 
 func main() {
+	// スライスを変更しようとするとその元となる配列の対応する要素が
+	// 変更される
+	// スライスは可変配列
 	names := [4]string{
 		"John",
 		"Paul",
